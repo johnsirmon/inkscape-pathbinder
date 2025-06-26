@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <_name>PathBinder - Bridged Stencil Generator</_name>
+  <id>com.johnsirmon.pathbinder</id>
+  <param name="bridge_width" type="float" _gui-text="Bridge width (px)">5.0</param>
+  <param name="bridge_interval" type="float" _gui-text="Bridge interval (px)">50.0</param>
+  <effect>
+    <object-type>path</object-type>
+    <effects-menu>
+      <submenu _name="Render & Stencil"/>
+    </effects-menu>
+  </effect>
+  <script>
+    <command reldir="extensions" interpreter="python">pathbinder.py</command>
+  </script>
+</inkscape-extension>

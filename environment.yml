@@ -1,0 +1,7 @@
+name: pathbinder
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - ipykernel
+prefix: C:\Users\John\miniconda3\envs\pathbinder
